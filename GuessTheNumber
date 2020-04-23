@@ -1,0 +1,12 @@
+import sys
+import random
+
+randomNumber = random.radint(1, 50)
+
+guessesTaken = 0
+
+print('Hello! What is your name?')
+myName = input()
+print('Hi, ' +myName + ', what number am I thinking of between 1 and 50?')
+
+while guessesTaken < 6
