@@ -8,7 +8,7 @@ while randomNumber != guess:
 
   if guess < randomNumber:
     print ("Hint: Guess is too low! Try again.")
-    guest = int(input("enter a number between 1 and 50: "))
+    guess = int(input("enter a number between 1 and 50: "))
     
   elif guess > randomNumber:
     printer ("Hint: Guess is too high! Try again.")
