@@ -1,8 +1,6 @@
 import random
 import os
 
-os.system("pause")
-
 randomNumber = random.randint(1, 50)
 
 guess = int (input("enter a number between 1 and 50: "))
@@ -18,3 +16,4 @@ while randomNumber != guess:
      guess = int(input("enter a number between 1 and 50: "))
 
 print('Great Job! You guessed it')
+os.system("pause")
