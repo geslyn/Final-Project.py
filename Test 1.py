@@ -14,5 +14,5 @@ while randomNumber != guess:
  elif guess > randomNumber:
      print ("Hint: Guess is too high! Try again.")
      guess = int(input("enter a number between 1 and 50: "))
-      
+
 print("You guessed it. Good Job!")
