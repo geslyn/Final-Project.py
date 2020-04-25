@@ -17,5 +17,5 @@ while randomNumber != guess:
      print ("Hint: Your guess is too high! Let's try again.")
      guess = int(input("Guess a number between 1 and 50: "))
 
-print('Great Job! You guessed it')
+print('You guessed it %s! Great job' % (name))
 os.system("pause")
