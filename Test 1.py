@@ -1,4 +1,7 @@
 import random
+import os
+
+os.system("pause")
 
 randomNumber = random.randint(1, 50)
 
