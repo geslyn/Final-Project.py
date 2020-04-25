@@ -1,12 +1,11 @@
 import random
 import os
 
-print('Hello! What is your name?')
-myName = input()
+name = input('What is your name? \n')
 
 randomNumber = random.randint(1, 50)
 
-guess = int (input("Welcome, ' + myName + ' , guess a number between 1 and 50: "))
+guess = int (input("Welcome, %s , guess a number between 1 and 50: " % (name)))
 
 while randomNumber != guess:
 
