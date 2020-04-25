@@ -1,5 +1,4 @@
 import random
-import emoji
 
 randomNumber = random.randint(1, 50)
 
@@ -16,4 +15,4 @@ while randomNumber != guess:
      guess = int(input("enter a number between 1 and 50: "))
 
     
-print(emoji.emojize('Great Job! You guessed it :thumbs_up_sign:'))
+print('Great Job! You guessed it')
