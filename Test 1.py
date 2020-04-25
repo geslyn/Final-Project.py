@@ -6,7 +6,7 @@ myName = input()
 
 randomNumber = random.randint(1, 50)
 
-guess = int (input("Welcome, ' + myName + ', guess a number between 1 and 50: "))
+guess = int (input("Welcome, ' + myName + ' , guess a number between 1 and 50: "))
 
 while randomNumber != guess:
 
