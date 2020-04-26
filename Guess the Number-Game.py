@@ -1,7 +1,7 @@
 import random
 import os
 
-name = input('Hello! What is your name?')
+name = input('Hello! What is your name? \n')
 
 randomNumber = random.randint(1, 50)
 
