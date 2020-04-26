@@ -7,13 +7,13 @@ randomNumber = random.randint(1, 50)
 
 guess = int (input("Welcome, %s!, Do you want play a game? :) Please guess a number between 1 and 50: " % (name)))
 
-while randomNumber != guess:
+while randomnumber != guess:
 
- if guess < randomNumber:
+ if guess < randomnumber:
      print ("Hint: Your guess is too low! Let's try again.")
      guess = int(input("Guess a number between 1 and 50: "))
     
- elif guess > randomNumber:
+ elif guess > randomnumber:
      print ("Hint: Your guess is too high! Let's try again.")
      guess = int(input("Guess a number between 1 and 50: "))
 
